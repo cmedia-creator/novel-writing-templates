@@ -6,7 +6,7 @@ const T = require('../plot-sheet/terms');
 
 const root = path.join(__dirname, '..');
 const REL = `https://github.com/cmedia-creator/novel-writing-templates/releases/download/plot-sheet-v${C.VERSION}/`;
-const ARTICLE = process.env.ARTICLE_URL || '';
+const ARTICLE = process.env.ARTICLE_URL || 'https://note.com/saakun777/n/nc70be469eaaa';
 const terms = T.map((t) => `- ${t}`).join('\n');
 const fence = '```';
 

@@ -22,7 +22,7 @@ Microsoft Word・Excel のほか、Google ドキュメント・スプレッド�
 
 商業ゲームのシナリオ制作でプロットを作ってきた経験をもとに、いま小説を書く人が使いやすい形に作り直したものです。制作現場で使われていた書式そのものではありません。
 
-解説記事（note）：準備中
+解説記事（note）：[https://note.com/saakun777/n/nc70be469eaaa](https://note.com/saakun777/n/nc70be469eaaa)
 
 ## 利用条件
 
