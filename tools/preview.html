@@ -1,0 +1,8 @@
+<!doctype html><html><head><meta charset="utf-8"><title>preview</title>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docx-preview@0.3.3/dist/docx-preview.min.js"></script>
+<style>body{background:#888;margin:0}.docx-wrapper{padding:10px!important}</style></head><body><div id="c"></div>
+<script>
+const f=new URLSearchParams(location.search).get('f');
+fetch('/dist/'+f).then(r=>r.blob()).then(b=>docx.renderAsync(b,document.getElementById('c'),null,{breakPages:true,ignoreLastRenderedPageBreak:false})).then(()=>{window.__done=document.querySelectorAll('section.docx').length});
+</script></body></html>

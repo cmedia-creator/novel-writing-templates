@@ -1,0 +1,18 @@
+{
+  "name": "novel-writing-templates",
+  "version": "1.0.0",
+  "description": "小説・シナリオのための無料テンプレート（久賀ラトル）",
+  "scripts": {
+    "build": "node plot-sheet/build-docx.js && node plot-sheet/build-xlsx.js && node tools/bundle.js && node tools/write-docs.js",
+    "verify": "node tools/verify.js"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "commonjs",
+  "dependencies": {
+    "docx": "^9.10.0",
+    "exceljs": "^4.4.0",
+    "jszip": "^3.10.2"
+  },
+  "private": true
+}
